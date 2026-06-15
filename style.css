@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+    
+}
+img{
+	width: 100%;
+}
+.main-wrap{
+    position:relative;
+    width: 100%;
+    background-color: #000;
+}
+.fancy,
+.ani,
+.star{
+    position:absolute;
+    display:block;
+
+    background:rgba(255,0,0,0.3);
+}
+/* 팬시 */
+.fancy{
+    left:12%;
+    top:28%;
+
+    width:18%;
+    height:20%;
+}
+/* 애니 */
+.ani{
+    left:39%;
+    top:29%;
+
+    width:18%;
+    height:20%;
+}
+/* 연예인 */
+.star{
+    left:66%;
+    top:29%;
+
+    width:17%;
+    height:20%;
+}
+.popup{
+    display:none;
+
+    background:rgba(0,0,0,0.5);
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.popup:target{
+    display:block;
+}
+.popup-box{
+    background:white;
+    width:500px;
+    padding:30px;
+    margin:100px auto;
+    border-radius:10px;
+    position:relative;
+}
+.close{
+    position:absolute;
+     right:20px;
+     top:20px;
+    text-decoration:none;
+    font-size:24px;
+
+}
+.menu{
+    text-align:center;
+}
+
+.menu a{
+    margin:0 20px;
+    text-decoration:none;
+}
+
