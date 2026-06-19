@@ -1,0 +1,117 @@
+body{
+    margin:0;
+    word-break: keep-all;
+}
+
+img{
+    width:100%;
+    display:block;
+}
+
+.main-wrap{
+    position:relative;
+    width:100%;
+}
+
+/* 폴라로이드 클릭 영역 */
+
+.star1,
+.star2,
+.star3{
+    position:absolute;
+    display:block;
+
+    
+    
+}
+
+
+.star1{
+    left:12%;
+    top:4%;
+    width:16%;
+    height:23%;
+    transform:rotate(-12deg);
+}
+
+
+.star2{
+    left:21%;
+    top:31%;
+    width:16%;
+    height:22%;
+    transform:rotate(17deg);
+}
+
+
+.star3{
+    left:12%;
+    top:61%;
+    width:17%;
+    height:22%;
+    transform:rotate(-11deg);
+}
+
+
+
+.popup{
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.7);
+    z-index:999;
+}
+
+.popup:target{
+    display:block;
+}
+
+.popup-box{
+    background:#fff;
+    width:700px;
+    max-width:90%;
+    padding:30px;
+    border-radius:15px;
+    margin:50px auto;
+    position:relative;
+}
+
+.close{
+    position:absolute;
+    right:20px;
+    top:15px;
+    text-decoration:none;
+    color:#000;
+    font-size:30px;
+}
+
+.popup-content{
+    display:flex;
+    gap:30px;
+    align-items:flex-start;
+}
+
+.popup-image{
+    width:40%;
+}
+
+.popup-image img{
+    width:100%;
+    display:block;
+}
+
+.popup-text{
+    width:60%;
+}
+
+.popup-text h2{
+    margin-top:0;
+}
+p{
+    line-height: 150%;
+}
+
+
